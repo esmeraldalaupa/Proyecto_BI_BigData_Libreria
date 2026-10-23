@@ -1,5 +1,6 @@
 import pyodbc
 
+# Reemplaza por el nombre del servidor usado
 SERVIDOR = r"LAPTOP-NNHMBL3E"
 
 conexion = pyodbc.connect(
