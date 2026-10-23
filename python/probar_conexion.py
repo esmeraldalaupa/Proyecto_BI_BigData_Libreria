@@ -1,6 +1,5 @@
 import pyodbc
 
-# Reemplaza este nombre por tu servidor de SSMS
 SERVIDOR = r"LAPTOP-NNHMBL3E"
 
 conexion = pyodbc.connect(
