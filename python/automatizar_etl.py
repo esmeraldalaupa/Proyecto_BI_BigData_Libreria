@@ -12,11 +12,7 @@ SERVIDOR = r"LAPTOP-NNHMBL3E"
 BASE_DM = "DM_Ventas_Libreria"
 BASE_OLTP = "dbVentasLibreria"
 
-CARPETA_PROYECTO = Path(__file__).resolve().parent.parent
-
-ARCHIVO_SQL = (
-    CARPETA_PROYECTO / "sql" / "bi" / "CARGA_ETL_libreria.sql"
-)
+ARCHIVO_SQL = Path(__file__).resolve().parent / "CARGA_ETL_libreria.sql"
 
 CARPETA_LOGS = Path(__file__).resolve().parent / "logs"
 CARPETA_LOGS.mkdir(exist_ok=True)
