@@ -1,0 +1,9 @@
+2026-10-23 17:43:09,005 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-23 17:43:09,205 | ERROR | La carga se cancelo para evitar datos incompletos.
+2026-10-23 17:43:09,205 | ERROR | ERROR durante el ETL: 'pyodbc.Cursor' object has no attribute 'timeout' and no __dict__ for setting new attributes
+Traceback (most recent call last):
+  File "c:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py", line 240, in ejecutar_etl
+    cursor.timeout = 120  # Tiempo máximo de espera por consulta: 120 segundos
+    ^^^^^^^^^^^^^^
+AttributeError: 'pyodbc.Cursor' object has no attribute 'timeout' and no __dict__ for setting new attributes
+2026-10-23 17:43:09,223 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\logs\etl_20261023_174309.log

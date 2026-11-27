@@ -1,0 +1,7 @@
+2026-11-19 12:05:22,003 | INFO | Iniciando ETL en LAPTOP-NNHMBL3E / DM_Ventas_Libreria
+2026-11-19 12:05:22,121 | INFO | Conexion establecida con LAPTOP-NNHMBL3E
+2026-11-19 12:05:22,449 | INFO | ETL EXITOSO: 163 lineas, 79 transacciones (rechazadas: 0)
+2026-11-19 12:05:22,450 | INFO | Ventas: S/ 9031.77 | Costo: S/ 5334.34 | Utilidad: S/ 3697.43
+2026-11-19 12:05:22,450 | INFO | Duracion: 77 ms (2117 filas/s)
+2026-11-19 12:05:22,450 | INFO | OLTP y Data Mart coinciden. Dimensiones cargadas: cliente 10, producto 25, vendedor 6, metodoPago 5, tiempo 625. Carga confirmada.
+2026-11-19 12:05:22,451 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\VSC\Proyecto_Libreria\python\logs\etl_20261119_120521.log

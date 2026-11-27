@@ -1,0 +1,8 @@
+2026-10-23 20:56:31,887 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-23 20:56:32,555 | INFO | Conexion establecida con LAPTOP-NNHMBL3E
+2026-10-23 20:56:32,616 | INFO | OLTP: 163 lineas, 79 transacciones, S/ 9031.77
+2026-10-23 20:56:32,723 | INFO | Ejecutando archivo: CARGA_ETL_libreria.sql
+2026-10-23 20:56:33,018 | INFO | ETL EXITOSO: 163 lineas, 79 transacciones
+2026-10-23 20:56:33,018 | INFO | Ventas: S/ 9031.7700 | Costo: S/ 5334.3400 | Utilidad: S/ 3697.4300
+2026-10-23 20:56:33,018 | INFO | OLTP y Data Mart coinciden. Carga confirmada.
+2026-10-23 20:56:33,045 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\logs\etl_20261023_205631.log
