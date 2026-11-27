@@ -1,0 +1,9 @@
+2026-10-24 06:58:05,097 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-24 06:58:05,098 | ERROR | ERROR durante el ETL: No se encontro el archivo: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\CARGA_ETL_libreria.sql
+Traceback (most recent call last):
+  File "c:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py", line 200, in ejecutar_etl
+    raise FileNotFoundError(
+        f"No se encontro el archivo: {ARCHIVO_SQL}"
+    )
+FileNotFoundError: No se encontro el archivo: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\CARGA_ETL_libreria.sql
+2026-10-24 06:58:05,108 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\logs\etl_20261024_065805.log

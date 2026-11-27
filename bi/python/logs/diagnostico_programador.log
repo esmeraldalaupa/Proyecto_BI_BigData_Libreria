@@ -1,0 +1,80 @@
+ 
+====================================== 
+Inicio: vie 23/10/2026 20:28:28.51 
+Carpeta: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python 
+Python: C:\Users\Esmeralda\AppData\Local\Programs\Python\Python312\python.exe 
+Script: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py 
+Version de Python: 
+Python 3.12.3
+Ejecutando ETL... 
+Traceback (most recent call last):
+  File "C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py", line 9, in <module>
+    import pyodbc
+ModuleNotFoundError: No module named 'pyodbc'
+Codigo de salida: 1 
+Fin: vie 23/10/2026 20:28:29.19 
+ 
+====================================== 
+Inicio: vie 23/10/2026 20:37:29.05 
+Carpeta: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python 
+Python: C:\Users\Esmeralda\AppData\Local\Programs\Python\Python312\python.exe 
+Script: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py 
+Version de Python: 
+Python 3.12.3
+Ejecutando ETL... 
+Traceback (most recent call last):
+  File "C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py", line 9, in <module>
+    import pyodbc
+ModuleNotFoundError: No module named 'pyodbc'
+Codigo de salida: 1 
+Fin: vie 23/10/2026 20:37:30.11 
+ 
+====================================== 
+Inicio: vie 23/10/2026 20:44:07.14 
+Carpeta: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python 
+Python: C:\Users\Esmeralda\AppData\Local\Programs\Python\Python314\python.exe 
+Script: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py 
+Version de Python: 
+Python 3.14.7
+Ejecutando ETL... 
+2026-10-23 20:44:07,717 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-23 20:44:08,064 | INFO | Conexion establecida con LAPTOP-NNHMBL3E
+2026-10-23 20:44:08,375 | INFO | OLTP: 163 lineas, 79 transacciones, S/ 9031.77
+2026-10-23 20:44:08,464 | INFO | Ejecutando archivo: CARGA_ETL_libreria.sql
+2026-10-23 20:44:08,738 | INFO | ETL EXITOSO: 163 lineas, 79 transacciones
+2026-10-23 20:44:08,738 | INFO | Ventas: S/ 9031.7700 | Costo: S/ 5334.3400 | Utilidad: S/ 3697.4300
+2026-10-23 20:44:08,738 | INFO | OLTP y Data Mart coinciden. Carga confirmada.
+2026-10-23 20:44:08,738 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\logs\etl_20261023_204407.log
+Codigo de salida: 0 
+Fin: vie 23/10/2026 20:44:08.94 
+ 
+====================================== 
+Inicio: dom 25/10/2026 19:56:45.41 
+Carpeta: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python 
+Python: C:\Users\Esmeralda\AppData\Local\Programs\Python\Python314\python.exe 
+Script: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py 
+Version de Python: 
+Python 3.14.7
+Ejecutando ETL... 
+2026-10-25 19:56:45,934 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-25 19:56:46,085 | INFO | Conexion establecida con LAPTOP-NNHMBL3E
+2026-10-25 19:56:46,225 | INFO | OLTP: 163 lineas, 79 transacciones, S/ 9031.77
+^C 
+====================================== 
+Inicio: jue 29/10/2026 22:34:53.53 
+Carpeta: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python 
+Python: C:\Users\Esmeralda\AppData\Local\Programs\Python\Python314\python.exe 
+Script: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\automatizar_etl.py 
+Version de Python: 
+Python 3.14.7
+Ejecutando ETL... 
+2026-10-29 22:34:54,246 | INFO | Iniciando ETL para DM_Ventas_Libreria
+2026-10-29 22:34:54,545 | INFO | Conexion establecida con LAPTOP-NNHMBL3E
+2026-10-29 22:34:54,699 | INFO | OLTP: 163 lineas, 79 transacciones, S/ 9031.77
+2026-10-29 22:34:54,784 | INFO | Ejecutando archivo: CARGA_ETL_libreria.sql
+2026-10-29 22:34:55,075 | INFO | ETL EXITOSO: 163 lineas, 79 transacciones
+2026-10-29 22:34:55,075 | INFO | Ventas: S/ 9031.7700 | Costo: S/ 5334.3400 | Utilidad: S/ 3697.4300
+2026-10-29 22:34:55,075 | INFO | OLTP y Data Mart coinciden. Carga confirmada.
+2026-10-29 22:34:55,077 | INFO | Registro guardado en: C:\Users\Esmeralda\OneDrive\Desktop\Proyecto_Libreria\python\logs\etl_20261029_223454.log
+Codigo de salida: 0 
+Fin: jue 29/10/2026 22:34:55.12 
